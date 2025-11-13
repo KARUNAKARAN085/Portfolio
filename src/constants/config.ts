@@ -40,53 +40,54 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Karunakaran R — Portfolio",
-    fullName: "Karunakaran R",
-    email: "karunakaranrk2001@mail.com",
+    title: 'Karunakaran R — Portfolio',
+    fullName: 'Karunakaran R',
+    email: 'karunakaranrk2001@mail.com',
   },
   hero: {
-    name: "Karunakaran",
-    p: ["MERN Stack Developer | GitHub | Wordpress | WooCommerce | Shopify | Zoho commerce | Let’s Build Something Great"],
+    name: 'Karunakaran',
+    p: [
+      'MERN Stack Developer | Wordpress | WooCommerce | Shopify | Zoho commerce | GitHub | Let’s Build Something Great',
+    ],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact Me.",
+    p: 'Get in touch',
+    h2: 'Contact Me.',
     form: {
       name: {
-        span: "Your Name",
+        span: 'Your Name',
         placeholder: "What's your name?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: 'Your Email', placeholder: "What's your email?" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: 'Your Message',
+        placeholder: 'What do you want to say?',
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `Web Developer with a B.E. in Computer Science and practical experience
-               in building responsive, scalable applications using the MERN stack. 
-               I also bring hands-on expertise in WordPress, WooCommerce, Shopify, 
-               and Zoho Commerce, delivering tailored solutions for diverse client needs. 
-               With a strong foundation in full stack development, a continuous 
-               learning mindset, and a collaborative approach, I’m eager to contribute 
-               to impactful projects, grow professionally, and explore new opportunities 
-               in innovative environments.`,
+      p: 'Introduction',
+      h2: 'Overview.',
+      content: `Web Developer with a B.E. in Computer Science and practical experience in building responsive,
+ scalable web applications using the MERN stack. Along with a solid foundation in full stack
+ development, I have hands-on expertise in WordPress, WooCommerce, Shopify, Laravel, and
+ Zoho Commerce. My academic background and professional experience fuel my passion for
+ developing innovative solutions that solve real-world challenges. I’m driven by continuous
+ learning, teamwork, and the ambition to contribute to a forward-thinking organization that
+ values growth, creativity, and technology-driven success.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: 'What I have done so far',
+      h2: 'Professional Journey.',
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: 'What others say',
+      h2: 'Testimonials.',
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
+      p: 'My work',
+      h2: 'Projects.',
       content: `Following projects showcases my skills and experience 
       through real-world examples of my work. Each project is briefly 
       described with links to code repositories. It reflects my ability 

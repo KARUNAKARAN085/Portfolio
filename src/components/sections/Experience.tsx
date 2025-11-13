@@ -5,6 +5,8 @@ import {
 } from "react-vertical-timeline-component";
 
 import "react-vertical-timeline-component/style.min.css";
+// import global.css
+import "../../globals.css";
 
 import { experiences } from "../../constants";
 import { SectionWrapper } from "../../hoc";
@@ -27,7 +29,7 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
           <img
             src={experience.icon}
             alt={experience.companyName}
-            className="h-[60%] w-[60%] object-contain"
+            className="h-[80%] w-[80%] object-contain"
           />
         </div>
       }
