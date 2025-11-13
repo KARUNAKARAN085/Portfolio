@@ -13,25 +13,28 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  bootstrap,
+  expressjs,
+  magento,
+  mysql,
+  woocommerce,
+  wordpress,
+  zohocommerce,
   meta,
   starbucks,
   tesla,
   shopify,
+  freelance,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -82,10 +85,6 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -93,10 +92,7 @@ const technologies: TTechnology[] = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -106,21 +102,43 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
+  {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
+    name: "Magento",
+    icon: magento,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Woocommerce",
+    icon: woocommerce,
+  },
+  {
+    name: "Wordpress",
+    icon: wordpress,
+  },
+  {
+    name: "Zoho Commerce",
+    icon: zohocommerce,
+  },
+  {
+    name: "Shopify",
+    icon: shopify,
+  },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences: TExperience[] = [
@@ -153,7 +171,7 @@ const experiences: TExperience[] = [
   {
     title: "Freelance Web Developer",
     companyName: "Independent Projects",
-    icon: shopify,
+    icon: freelance,
     iconBg: "#383E56",
     date: "Dec 2023 – Present",
     points: [

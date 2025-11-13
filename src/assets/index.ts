@@ -10,6 +10,14 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
+import bootstrap from "./tech/bootstrap.png";
+import expressjs from "./tech/expressjs.png";
+import magento from "./tech/magento.png";
+import mysql from "./tech/mysql.png";
+import woocommerce from "./tech/woocommerce.png";
+import zohocommerce from "./tech/zohocommerce.png";
+import wordpress from "./tech/wordpress.png";
+import shopify from "./tech/shopify.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -22,7 +30,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import freelance from "./company/freelance.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -42,6 +50,14 @@ export {
   css,
   docker,
   figma,
+  bootstrap,
+  expressjs,
+  magento,
+  mysql,
+  woocommerce,
+  zohocommerce,
+  wordpress,
+  shopify,
   git,
   html,
   javascript,
@@ -53,7 +69,7 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  freelance,
   starbucks,
   tesla,
   carrent,
