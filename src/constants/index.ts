@@ -14,7 +14,7 @@ import {
   web,
   javascript,
   html,
-  css,
+  // css,
   reactjs,
   redux,
   nodejs,
@@ -22,11 +22,11 @@ import {
   git,
   bootstrap,
   expressjs,
-  magento,
+  // magento,
   mysql,
   woocommerce,
   wordpress,
-  zohocommerce,
+  // zohocommerce,
   meta,
   starbucks,
   tesla,
@@ -76,10 +76,10 @@ const technologies: TTechnology[] = [
     name: "HTML 5",
     icon: html,
   },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -98,21 +98,21 @@ const technologies: TTechnology[] = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Express JS",
+    icon: expressjs,
   },
   {
     name: "Bootstrap",
     icon: bootstrap,
   },
   {
-    name: "Express JS",
-    icon: expressjs,
+    name: "MongoDB",
+    icon: mongodb,
   },
-  {
-    name: "Magento",
-    icon: magento,
-  },
+  // {
+  //   name: "Magento",
+  //   icon: magento,
+  // },
   {
     name: "MySQL",
     icon: mysql,
@@ -125,10 +125,10 @@ const technologies: TTechnology[] = [
     name: "Wordpress",
     icon: wordpress,
   },
-  {
-    name: "Zoho Commerce",
-    icon: zohocommerce,
-  },
+  // {
+  //   name: "Zoho Commerce",
+  //   icon: zohocommerce,
+  // },
   {
     name: "Shopify",
     icon: shopify,
