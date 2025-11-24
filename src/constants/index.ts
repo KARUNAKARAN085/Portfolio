@@ -200,93 +200,113 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "He is reliable, fast, and consistently delivers high-quality work - a strong asset to our team.",
+    name: "Praveen",
+    designation: "CEO",
+    company: "DACT IT Solutions",
+    image: "/src/assets/praveen.png",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "A dedicated learner with solid fundamentals and great discipline — a developer with real potential.",
+    name: "Shalini",
+    designation: "Mentor",
+    company: "GUVI Geek Network (IITM Research Park)",
+    image: "/src/assets/shalini.png",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "He learns quickly, handles complex tasks confidently, and always maintains clean, efficient code.",
+    name: "Arun",
+    designation: "Senior Software Developer",
+    company: "DACT IT Solutions",
+    image: "/src/assets/arun.png",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "E-commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A large-scale e-commerce platform offering home fitness equipment with an extensive catalog of 2000+ products and a smooth, user-focused shopping experience.",
     tags: [
       {
-        name: "react",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PHP",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "SCSS",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/KARUNAKARAN085",
   },
   {
-    name: "Trip Guide",
+    name: "Event-management",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A modern event-management platform that streamlines wedding planning with tools for vendors, budgeting, task tracking, and full client coordination.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/KARUNAKARAN085/WeddingWise-Backend",
+  },
+  {
+    name: "Health Care",
+    description:
+      "A modern healthcare platform offering appointment booking, service browsing, and patient-focused medical care with smooth navigation & clean user experience.",
+    tags: [
+      {
+        name: "WordPress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://github.com/KARUNAKARAN085",
   },
 ];
 
