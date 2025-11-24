@@ -33,6 +33,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import praveen from "./praveen.png";
+import shalini from "./shalini.png";
+import arun from "./arun.png";
+
 export {
   logo,
   backend,
@@ -65,4 +69,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  praveen,
+  shalini,
+  arun,
 };

@@ -14,7 +14,9 @@ import {
   web,
   javascript,
   html,
-  // css,
+  praveen,
+  arun,
+  shalini,
   reactjs,
   redux,
   nodejs,
@@ -204,7 +206,7 @@ const testimonials: TTestimonial[] = [
     name: "Praveen",
     designation: "CEO",
     company: "DACT IT Solutions",
-    image: "/src/assets/praveen.png",
+    image: praveen,
   },
   {
     testimonial:
@@ -212,7 +214,7 @@ const testimonials: TTestimonial[] = [
     name: "Shalini",
     designation: "Mentor",
     company: "GUVI Geek Network (IITM Research Park)",
-    image: "/src/assets/shalini.png",
+    image: shalini,
   },
   {
     testimonial:
@@ -220,7 +222,7 @@ const testimonials: TTestimonial[] = [
     name: "Arun",
     designation: "Senior Software Developer",
     company: "DACT IT Solutions",
-    image: "/src/assets/arun.png",
+    image: arun,
   },
 ];
 
