@@ -202,7 +202,7 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "He is reliable, fast, and consistently delivers high-quality work - a strong asset to our team.",
+      "He is reliable, fast, and consistently delivers high-quality work that is a strong asset to our team.",
     name: "Praveen",
     designation: "CEO",
     company: "DACT IT Solutions",
@@ -210,7 +210,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "A dedicated learner with solid fundamentals and great discipline — a developer with real potential.",
+      "A dedicated learner with solid fundamentals and great discipline to become a developer with real potential.",
     name: "Shalini",
     designation: "Mentor",
     company: "GUVI Geek Network (IITM Research Park)",
